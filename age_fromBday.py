@@ -3,6 +3,8 @@ bdate = int(input("Enter Birth Day:"))
 bmonth = int(input("Enter Birth Month:"))
 byear = int(input("Enter Birth Year:"))
 
+#age_in_days = (date.today() - date(birth_year, birth_month, birth_day)).days
+
 bday = date(byear, bmonth, bdate )
 today = date.today()
 
