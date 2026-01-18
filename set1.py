@@ -1,0 +1,5 @@
+s=set()
+s.add("s")
+s.add(10)
+print(type(s))
+print(s)
