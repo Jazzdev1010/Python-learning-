@@ -19,8 +19,10 @@ class PasswordValidator():
         self.name = name
     def greet(self):
         print(self.name)
-
-if __name__=="__main__":
+        
+class SSUPasswordValidator(PasswordValidator):
+    
+if __name__ == "__main__":
     validator = PasswordValidator("Ajit")
     validator.greet()
      
